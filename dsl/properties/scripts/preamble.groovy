@@ -1,0 +1,7 @@
+$[/myProject/scripts/ECCodeLoader]
+$[/myProject/scripts/PluginLogger]
+$[/myProject/scripts/PluginException]
+$[/myProject/scripts/BaseClient]
+$[/myProject/scripts/EFClient]
+$[/myProject/scripts/DB2PluginCore]
+$[/myProject/scripts/DB2Plugin]

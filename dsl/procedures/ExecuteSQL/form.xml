@@ -1,0 +1,50 @@
+<!--
+
+     Copyright 2016 Electric Cloud, Inc.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+
+-->
+
+<editor>
+    <formElement>
+        <type>entry</type>
+        <label>Configuration name:</label>
+        <property>config</property>
+        <required>1</required>
+        <propertyReference>/plugins/@PLUGIN_NAME@/project/ec_plugin_cfgs</propertyReference>
+        <documentation>Configuration name.</documentation>
+    </formElement>
+    <formElement>
+        <type>textarea</type>
+        <label>SQL statement:</label>
+        <property>sql</property>
+        <required>0</required>
+        <documentation>SQL to execute</documentation>
+    </formElement>
+    <formElement>
+        <type>entry</type>
+        <label>Path to SQL file:</label>
+        <property>sql_file_path</property>
+        <required>0</required>
+        <documentation>Path to file that contains SQL request.</documentation>
+    </formElement>
+    <formElement>
+        <type>entry</type>
+        <label>Output properties path:</label>
+        <property>result_properties</property>
+        <required>1</required>
+        <value>/myJobStep</value>
+        <documentation>Path for result properties.</documentation>
+    </formElement>
+</editor>

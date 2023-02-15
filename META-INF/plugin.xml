@@ -1,0 +1,16 @@
+<plugin>
+    <author>Electric Cloud</author>
+    <authorUrl>http://www.electric-cloud.com/support</authorUrl>
+    <configure>ec_config</configure>
+    <category>Database</category>
+    <commander-version min="6.0" />
+    <description>DB2 plugin</description>
+    <help>help.xml</help>
+    <key>EC-DB2</key>
+    <label>EC-DB2</label>
+    <version>1.0.3</version>
+    <depends min="1.4.1">EC-PluginManager</depends>
+    <hasAdoc>true</hasAdoc>
+    <catalogLabel>IBM DB2 </catalogLabel>
+    <detailedDescription>DB2 is an enterprise grade Database offering performance, flexibility and reliability for any size organization. The DB2 plugin for CloudBees CD allows you to drive the deployment of DB2 database components as part of multi-tier web application releases.</detailedDescription>
+</plugin>
